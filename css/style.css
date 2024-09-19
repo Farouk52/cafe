@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear-fix {
+    clear: both;
+}
+.color_text {
+    color: #8d7258;
+}
+
+/* -------------------------------------------------------------- */
+header {
+    background-image: url("../images/full-1.jpg");
+    width: 100%;
+    height: 650px;
+    background-size:100% 100%;
+    background-position: center center;
+    position: relative;
+    
+}
+header::before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 650px;
+    opacity: 0.5; 
+    z-index: 1;
+}
+header h2,h1,p,button,nav{
+    position: relative;
+    z-index: 2; 
+}
+nav{
+    padding: 10px 40px;
+}
+.links ul{
+    list-style: none;
+    float: right;
+    margin-top:15px;
+
+}
+.links ul li{
+    float: left;
+    margin-right: 15px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    float: left;
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+}
+.links{
+    width: 80%;
+    float: right;
+}
+.header-text{
+text-align: center;
+}
+.title{
+    color: white;
+    line-height: 2;
+}
+.header-text{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    margin: auto;
+}
+.btns button{
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.btns button:first-of-type {
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+}
+    
+
+
+/* ---------------second-section------------------------------------------------------------------------------------ */
+.second_section .ss1  {
+    text-align: center;
+    color: #8d7258;
+    margin-top: 20px; 
+}
+.second_section .ss2{
+    margin: 50px 50px 50px 100px;
+}
+.second_section .ss2 img{
+    float: left;
+    height: 500px;
+    padding-bottom: 10px;
+    margin: 30px 50px 50px 50px;
+}
+.second_section .ss3 h1{
+   padding-top: 150px;
+}
+.second_section .ss3 .text-ss{
+    margin: 30px;
+ }
+
+.second_section i{
+    color:white;
+    padding: 5px;
+    background-color:rgb(189, 164, 35);
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+/* --------------------------third-section------------------------------- */
+.third-section {
+    background-image: url("../images/photo-1452.jpeg"); /* Match Section 1's background */
+    width: 100%;
+    height: 250px;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+} 
+.third-section::before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    opacity: 0.5; 
+    z-index: 1;
+}
+.third-section .ts1 {
+    position: relative;
+    z-index: 2;
+    color: white; 
+   
+}
+.ts1{
+float: right;
+text-align: center;
+width:80%;
+position: absolute;
+top: 40%;
+margin: auto;
+line-height: 1.5;
+margin-right: 30px;
+
+
+}
+.like {
+    float: left;
+    width: 20%;
+    
+}
+.locations{
+    float: left;
+    width: 20%;
+}
+.ideas{
+    float: left;
+    width: 20%;
+
+}
+.comments{
+    float: left;
+    width: 20%;
+}
+.icons{
+    opacity: 0.5;
+}
+ /*-----------------forth-section-----------------------------  */
+ .forth-section{
+    width: 100%;
+ }
+ 
+.forth-section .fs1{
+    text-align: center;
+    margin: 30px;
+    line-height: 2;
+ }
+
+.forth-section .fs2{
+    width: 90%;
+    margin: 20px auto;
+
+}
+.fs2 .first-row .cel-1{
+    float: left;
+    width: 29.5%;
+    margin:20px 25px;
+
+}
+.fs2 .first-row .cel-2{
+    float: left;
+    width: 29.5%;
+    margin:20px 25px;
+
+}
+.fs2 .first-row .cel-3{
+    float: left;
+    width: 29.5%;
+    margin:20px 25px;
+
+}
+.price{
+    float: right;
+    color: rgb(172, 151, 32);
+
+}
+.font-size{
+    font-size: 15;
+}
+span{
+    line-height: 3;
+}
+hr{
+    width: 100%;
+}
+.forth-section .fs2 p{
+    line-height: 2;
+    margin-top:15px ;
+}
+/* ---------------------fifth-section-------------------------------- */
+.fifth-section{
+    width: 85%;
+    margin:30px auto;
+}
+
+.fifth-section .Contact-Information{
+    float: left;
+    width: 42.5%;
+    margin: 30px 50px 20px;
+}   
+.fifth-section .image2{
+    float: left;
+    width: 42.5%;
+    margin: 30px;
+}
+.fifth-section .Contact-Information p{
+    margin-top: 25px;
+    color:gray;
+}
+.fifth-section i{
+    color:white;
+    padding: 5px;
+    background-color:rgb(189, 164, 35);
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+/* -----------------------------fixed------------- */
+.fixed-icon{
+    position: fixed;
+    width: 100%;
+    bottom: 80%;
+   
+    z-index: 10;
+}
+.fixed-icon .f1{
+    position: absolute;
+    right: 0px;
+    background-color: #fff;
+    width: 2%;
+    height: 40px;
+    padding-left: 5px;
+}
+.fixed-icon .f2{
+    position: absolute;
+    
+    right: 0px;
+    top:40px;
+    background-color: #fff;
+    width: 2%;
+    padding-left: 5px;
+}
+
+/* ---------------------last-section-------------------------------------------- */
+.last-section {
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    background-color:  #403d38;
+    background-size: 100% 100%;
+    height: 350px;
+}    
+
+.last-section .first {
+    width: 80%;
+    margin:  auto;
+    background-color:  #403d38;
+   
+    
+}
+
+.about-us, .hours, .contact {
+    width: 29%;
+    float: left;
+    margin-right: 3.33%;
+   
+}
+.contact{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: 20px 100px;
+    
+}
+
+.last-section .first h2{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.last-section .first p{
+    line-height: 1.3;
+    color: gray;
+}
+.last-section .first .about-us {
+   margin-left: 20px;
+}
+.line {
+
+    border-color: gray;
+    width: 90%;
+}
+.last-section .first .hours p{
+    margin: 10px 0px 10px;
+    color: gray;
+    
+}
+.last-section .first .contact p{
+    margin: 10px 0px 10px;
+    color: gray;
+    
+}
+
+.text{
+    padding-left: 25px;
+}
+.white-color{
+    color: rgb(192, 169, 169) !important;
+}
+.last-section .first i{
+    margin-right: 10px;
+    color: gray;
+}
+
+/* ------------------footer------------ */
+footer .end {
+    background-color:  #353330;
+    text-align: center;
+    color: gray;
+}
+
+footer .end .copyright p{
+    margin-top: 10px;
+}
+footer .end .copyright i{
+    
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.1;
+    color:white;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+.btns button:hover {
+    background-color: #8d7258; 
+    color: white; 
+    border: 1px solid white; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
